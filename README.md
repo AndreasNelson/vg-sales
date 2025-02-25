@@ -58,7 +58,3 @@ Potential future improvements for this project include:
 ## Project Status
 
 This project is currently considered complete as it fulfilled the requirements of the data science course final project. However, there is always room for further development and improvement.
-
-## Contact
-
-If you have any questions or suggestions regarding this project, feel free to contact [Your Name] at [Your Email Address].
