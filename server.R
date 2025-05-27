@@ -1,10 +1,9 @@
 library(shiny)
 library(wordcloud)
 library(tm)
-library(ggplot2)  # You'll need this for the genrePlot
+library(ggplot2)  
 
 shinyServer(function(input, output, session) {
-  # Load the data at the start
   final_data <- read.csv("final_data.csv")
   
   output$wordcloud <- renderPlot({
@@ -17,6 +16,7 @@ shinyServer(function(input, output, session) {
     if (nrow(sales_by_genre) > 0) {
       wordcloud(words = sales_by_genre$Genre, freq = sales_by_genre$NA_Sales,
                 min.freq = 1,
+                scale = c(6, 0.5),
                 random.order = FALSE,
                 rot.per = 0.1,
                 colors = rainbow(20))

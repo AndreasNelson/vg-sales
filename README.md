@@ -4,6 +4,10 @@
 
 This is an R-based Shiny web application that provides interactive visualizations of video game sales data by genre from 1980 to 2020. It was developed as the final project for an introductory data science course.
 
+## Live Application
+
+You can access the live deployed application here: [https://andreas-nelson.shinyapps.io/projectstep4/](https://andreas-nelson.shinyapps.io/projectstep4/)
+
 ## Project Goals
 
 The main goals of this project were:
@@ -38,6 +42,7 @@ This Shiny web application provides two main interactive features:
 * wordcloud
 * tm
 * ggplot2
+* shinythemes
 
 ## How to Run the Application
 
